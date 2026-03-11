@@ -51,3 +51,33 @@ export const Fonts = Platform.select({
     mono: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
   },
 });
+
+// ---- Custom theme for my final year app ----
+
+export const appColors = {
+  background: "#EEF2FF",
+  card: "#FFFFFF",
+  primary: "#4F46E5",      // main purple/indigo
+  primaryDark: "#4338CA",
+  text: "#111827",
+  subtleText: "#6B7280",
+  border: "#E5E7EB",
+  success: "#16A34A",
+  danger: "#DC2626",
+  softGray: "#F3F4F6",
+};
+
+export const appSpacing = {
+  xs: 4,
+  s: 8,
+  m: 16,
+  l: 24,
+  xl: 32,
+};
+
+export const appRadius = {
+  s: 6,
+  m: 12,
+  l: 20,
+  xl: 28,
+};
